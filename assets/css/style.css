@@ -890,6 +890,16 @@ section {
 .services .iconbox-teal:hover .icon path {
   fill: #11dbcf;
 }
+.services .iconbox-green i {
+  color: #0cb837ea;
+}
+.services .iconbox-green:hover .icon i {
+  color: #fff;
+}
+.services .iconbox-green:hover .icon path {
+  fill: #0cb837ea;
+}
+
 
 /*--------------------------------------------------------------
 # Cta
@@ -1376,7 +1386,7 @@ section {
   font-size: 14px;
   color: #217bbc;
 }
-.contact .info .email, .contact .info .phone {
+.contact .info .address, .contact .info .phone {
   margin-top: 40px;
 }
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {

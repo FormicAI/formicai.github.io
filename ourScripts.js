@@ -4,7 +4,7 @@ var hero_h1 = document.getElementById("hero_h1");
 
 function loop_personas()
 {
-  setInterval(_change_persona, 1500);
+  setInterval(_change_persona, 2000);
 }
 
 function _change_persona()
