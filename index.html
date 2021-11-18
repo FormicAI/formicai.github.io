@@ -61,10 +61,10 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li class="dropdown"><a href="#services"><span>Solutions</span><i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#services"><span>Services</span><i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#Embedding">Embedding</a></li>
-              <li class="dropdown"><a href="#Classification"><span>Classification</span> </a>  <!-- <i class="bi bi-chevron-right"></i> -->
+              <li><a href="#Classification"><span>Classification</span> </a>  <!-- <i class="bi bi-chevron-right"></i> -->
                 <!-- <ul>
                   <li><a href="#">Sentiment Analysis</a></li>
                   <li><a href="#">Topic Modeling</a></li>
@@ -78,6 +78,16 @@
               <li><a href="#Fine">Fine-tuning</a></li>
               <li><a href="#Search">Search</a></li>
               <li><a href="#Generation">Generation</a></li>
+            </ul>
+          </li-->         <!-- SOLUTIONS DROPDOWN COMMENTED--> 
+          <li class="dropdown"><a href="#ReadySolutions"><span>Ready Made Solutions</span><i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#ReadySolutions">Sentiment Analysis</a></li>
+              <li><a href="#ReadySolutions"><span>Topic Modeling</span> </a>
+              <li><a href="#ReadySolutions">Natural Language Inference</a></li>
+              <li><a href="#ReadySolutions">Similarity Detection</a></li>
+              <li><a href="#ReadySolutions">(Named) Entity Recognition</a></li>
+              <li><a href="#ReadySolutions">Relation Extraction</a></li>
             </ul>
           </li-->         <!-- SOLUTIONS DROPDOWN COMMENTED--> 
           <li><a class="nav-link scrollto" href="#about">Our Mission</a></li>
@@ -98,7 +108,7 @@
         <div class="col-xl-7 col-lg-9 text-center">
           <h1> Making AI accessible to </h1>
           <h1 id="hero_h1">everyone</h1>
-          <h2>We're developing a new type of language model that is designed to have state-of-the-art performance at a low cost.</h2>
+          <h2>We're developing a new type of large language model that is designed to have state-of-the-art performance at a low cost.</h2>
         </div>
       </div>
 
@@ -107,7 +117,7 @@
           <div class="icon-box">
             <div class="icon"><i class="ri-stack-line"></i></div>
             <h4 class="title"><a href="">Competitive</a></h4>
-            <p class="description">Our innovative technology allows you to reduce your language model (LM) compute costs by up to 50%, compared to leading cloud NLP and LM providers.</p>
+            <p class="description">Our innovative technology allows you to reduce your large language model (LLM) compute costs by up to 50%, compared to leading cloud NLP and LLM providers.</p>
           </div>
         </div>
 
@@ -141,7 +151,7 @@
           <h2>Our Mission</h2>
           <p></p>
         </div>
-
+ 
         <div class="row content">
           <div class="col-lg-6">
             <p>
@@ -149,8 +159,8 @@
             </p>
             <ul>
               <li><i class="ri-check-double-line"></i> <b>Cost</b>: We want to enable new innovation through attainable costs</li>
-              <li><i class="ri-check-double-line"></i> <b>Integration</b>: we want to help non-technical teams use our technology</li>
-              <li><i class="ri-check-double-line"></i> <b>Performance</b>: we want to outperform leading models in the space</li>
+              <li><i class="ri-check-double-line"></i> <b>Integration</b>: We want to help non-technical teams use our technology</li>
+              <li><i class="ri-check-double-line"></i> <b>Performance</b>: We want to outperform leading models on standardize benchmarks</li>
             </ul>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
@@ -362,8 +372,8 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Solutions</h2>
-          <p>Our engineers are developing enterprise-ready solutions that leverages our technology for a wide variety of use cases. Build your NLP product on top of these solutions:</p>
+          <h2>Services</h2>
+          <p>Our engineering team is developing enterprise-ready solutions that leverages our technology for a wide variety of use cases. Build your NLP product on top of these building blocks:</p>
         </div>
 
         <div class="row">
@@ -502,7 +512,71 @@
         </div>
 
       </div>
-    </section><!-- End Sevices Section -->
+    </section><!-- End Services Section -->
+
+    <!-- ======= Ready Made Solutions Section ======= -->
+    <section id="ReadySolutions" class="ReadySolutions section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Ready-Made Solutions</h2>
+          <p>We have multiple off-the-shelf solutions that cover a variety of topics. All of these solutions are accessible to your business through a simple API call. </p>
+        </div>
+
+        <div class="row">
+          <div id="Sentiment" class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box iconbox-blue">
+
+              <h4>Sentiment Analysis</h4>
+              <p>Use our large language model to predict the polarity of a given text: determine whether the expressed opinion in a text is positive, neutral, or negative.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div  id="TopicModeling" class="icon-box iconbox-orange">
+
+              <h4>Topic Modeling</h4>
+              <p>Allow our model to detect abstract topics that occur in a collection of documents. The set of topics may be provided by the user, but primarily, we perform zero-shot topic modelling.</p>
+            </div>
+          </div>
+
+          <div id="NaturalLI" class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box iconbox-pink">
+
+              <h4>Natural Language Inference</h4>
+              <p>Given a premise, determine whether hypotheses are true (entailment), false (contradiction), or undetermined (neutral)</p>
+            </div>
+          </div>
+
+          <div id="Similarity" class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box iconbox-yellow">
+
+              <h4>Similarity Detection</h4>
+              <p>Given two text articles, semantically identify whether the information contained in the texts are identical.</p>
+            </div>
+          </div>
+
+          <div id="NER" class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box iconbox-red">
+
+              <h4>(Named) Entity Recognition</h4>
+              <p>Identify entities that have been mentioned in your text and link them to several knowledge graphs, such as, WordNet, DBpedia and YAGO.</p>
+            </div>
+          </div>
+
+          <div id="RelExtraction" class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box iconbox-green">
+
+              <h4>Relation Extraction</h4>
+              <p>Identify relationships between various entities in your text, while linking them to evidences in several knowledge graphs.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Ready Made Solutions Section -->
+
 
     <!-- ======= Cta Section ======= -->
     <!-- <section id="cta" class="cta">
@@ -805,7 +879,7 @@
               <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Why did you choose to release a commercial product rather than open source your solution? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                  This type of technology has already proven to be detrimental when put in the wrong hands (e.g., propoganda creation). In order to grow in an ethical and sustainable way, we plan to keep our solution hidden. Down the road, we plan to open up the “hood to our car” once we can ensure that the technology won’t be used for evil purposes.                </p>
+                  This type of technology has already proven to be detrimental when put in the wrong hands (e.g., propaganda creation). In order to grow in an ethical and sustainable way, we plan to keep our solution hidden. Down the road, we plan to open up the “hood to our car” once we can ensure that the technology won’t be used for evil purposes.                </p>
               </div>
             </li>
 
@@ -813,7 +887,7 @@
               <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">How will you tackle the inherent bias present in language model technology? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                  We believe that bias inherently exists in all datasets, and therefore, providing visibility into what creates the outputs of a model will allow us to navigate the consequences. As opposed to some models in this space, we are looking to make our model truly explainable. I.E., we can provide descriptive analysis on why the model made a particular decision for all predictions made by the model.                </p>
+                  We believe that bias inherently exists in all datasets, and therefore, providing visibility into what creates the outputs of a model will allow us to navigate the consequences. As opposed to some models in this space, we are looking to make our model truly explainable; i.e., we can provide descriptive analysis on why the model made a particular decision for all predictions.                </p>
               </div>
             </li>
 
