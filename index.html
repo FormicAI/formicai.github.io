@@ -61,23 +61,23 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <!--li class="dropdown"><a href="#services"><span>Solutions</span><i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#services"><span>Solutions</span><i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Embedding</a></li>
-              <li class="dropdown"><a href="#"><span>Classification</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
+              <li><a href="#Embedding">Embedding</a></li>
+              <li class="dropdown"><a href="#Classification"><span>Classification</span> </a>  <!-- <i class="bi bi-chevron-right"></i> -->
+                <!-- <ul>
                   <li><a href="#">Sentiment Analysis</a></li>
                   <li><a href="#">Topic Modeling</a></li>
                   <li><a href="#">Natural Language Inference</a></li>
                   <li><a href="#">Similarity</a></li>
                   <li><a href="#">(Named) Entity Recognition</a></li>
                   <li><a href="#">Relation Extraction</a></li>
-                </ul>
+                </ul> -->
               </li>
-              <li><a href="#">Question Answering</a></li>
-              <li><a href="#">Fine-tuning</a></li>
-              <li><a href="#">Search</a></li>
-              <li><a href="#">Generation</a></li>
+              <li><a href="#Question">Question Answering</a></li>
+              <li><a href="#Fine">Fine-tuning</a></li>
+              <li><a href="#Search">Search</a></li>
+              <li><a href="#Generation">Generation</a></li>
             </ul>
           </li-->         <!-- SOLUTIONS DROPDOWN COMMENTED--> 
           <li><a class="nav-link scrollto" href="#about">Our Mission</a></li>
@@ -107,7 +107,7 @@
           <div class="icon-box">
             <div class="icon"><i class="ri-stack-line"></i></div>
             <h4 class="title"><a href="">Competitive</a></h4>
-            <p class="description">Our innovative technology allows you to reduce your language model compute costs by up to 50%, compared to leading cloud NLP and LLM providers.</p>
+            <p class="description">Our innovative technology allows you to reduce your language model (LM) compute costs by up to 50%, compared to leading cloud NLP and LM providers.</p>
           </div>
         </div>
 
@@ -367,7 +367,7 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <div id="Embedding" class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box iconbox-blue">
               <div class="icon">
                 <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
@@ -375,12 +375,12 @@
                 </svg>
                 <i class="bx bx-dna"></i>
               </div>
-              <h4><a href="">Embedding</a></h4>
+              <h4>Embedding</h4>
               <p>Provides the encoded representation of text. This basic service allows users to use the encoded representation for downstream NLP tasks.</p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+          <div id="Classification" class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box iconbox-orange">
               <div class="icon">
                 <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
@@ -388,12 +388,12 @@
                 </svg>
                 <i class="bx bx-file"></i>
               </div>
-              <h4><a href="">Classification</a></h4>
+              <h4>Classification</h4>
               <p>Tags text(s) based on labels provided. This service fine-tunes our model for a custom dataset containing sentence(s) and corresponding target label(s).</p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+          <div id="Question" class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box iconbox-pink">
               <div class="icon">
                 <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
@@ -401,7 +401,7 @@
                 </svg>
                 <i class="bx bx-tachometer"></i>
               </div>
-              <h4><a href="">Question Answering</a></h4>
+              <h4>Question Answering</h4>
               <p>Find answers to your natural language questions over your custom corpus or a general QA corpus.</p>
             </div>
           </div>
@@ -460,7 +460,7 @@
             </div>
           </div> -->
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+          <div id="Fine" class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box iconbox-yellow">
               <div class="icon">
                 <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
@@ -468,12 +468,12 @@
                 </svg>
                 <i class="bx bx-layer-plus"></i>
               </div>
-              <h4><a href="">Fine-tuning</a></h4>
+              <h4>Fine-tuning</h4>
               <p>Re-train our model for your specific task. This service creates a separate copy of our model and then trains the model for your task.</p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+          <div id="Search" class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box iconbox-red">
               <div class="icon">
                 <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
@@ -481,12 +481,12 @@
                 </svg>
                 <i class="bx bx-slideshow"></i>
               </div>
-              <h4><a href="">Search</a></h4>
+              <h4>Search</h4>
               <p>Perform a neural search over your corpus for related text. Our core technology supports multi-modality and we will be extending search beyond text, to images, audio and video data.</p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+          <div id="Generation" class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box iconbox-green">
               <div class="icon">
                 <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
@@ -494,8 +494,8 @@
                 </svg>
                 <i class="bx bxs-magic-wand"></i>
               </div>
-              <h4><a href="">Generation</a></h4>
-              <p>Create content based on an inputed prompt that can either match or out-perform a human in creating natural sounding language.</p>
+              <h4>Generation</h4>
+              <p>Create content based on an inputted prompt that can either match or out-perform a human in creating natural sounding language.</p>
             </div>
           </div>
 
@@ -813,7 +813,7 @@
               <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">How will you tackle the inherent bias present in language model technology? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                  We believe that bias inherently exists in all datasets, and therefore, providing visibility into outputs of a model will allow us to navigate the consequences. As opposed to some models in this space, we are looking to make our model trully explainable - i.e., for all predictions made by the model - we can provide descriptive analysis on why the model made a particular decision.                </p>
+                  We believe that bias inherently exists in all datasets, and therefore, providing visibility into what creates the outputs of a model will allow us to navigate the consequences. As opposed to some models in this space, we are looking to make our model truly explainable. I.E., we can provide descriptive analysis on why the model made a particular decision for all predictions made by the model.                </p>
               </div>
             </li>
 
@@ -821,7 +821,7 @@
               <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">What are the different ways that an individual or an organization use your model? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                  From the integration standpoint, our function library is a simple API call away. In terms of use cases, we’ve seen it used in a number of creative ways from document analysis all the way to creating never-ending video games. Reach out to us for a demo and we’ll be more than happy to discuss how this technology will help improve your business.                </p>
+                  From the integration standpoint, our function library is a simple API call away. In terms of use cases, we’ve seen the technology used in a number of creative ways from simple document analysis all the way to creating never-ending video games. Reach out to us for a demo and we’ll be more than happy to discuss how this technology will help improve your business.                </p>
               </div>
             </li>
 
@@ -829,7 +829,7 @@
               <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">What is the process of integrating this technology across our organization? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                  We will work with your company to make sure that we can effectively either work into existing or create new NLP pipelines. Our team will sit down with yours to organize and plan the proper way to use a technology such as our own to make sure that we hold best practices for your regulations.                 </p>
+                  We will work with your company to make sure that we can effectively either work into existing or create new NLP pipelines. Our team will sit down with yours to organize and plan the proper integration strategy to make sure that we uphold best practices for your policies and regulations.                 </p>
               </div>
             </li>
 
