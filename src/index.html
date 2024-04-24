@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formic AI - Stealth Website</title>
+</head>
+
+<body x-data="{ page: 'home', 'loaded': true, 'stickyMenu': false, 'navigationOpen': false, 'scrollTop': false }">
+  <!-- ===== Header Start ===== -->
+  <include src="./partials/header.html" />
+  <!-- ===== Header End ===== -->
+
+  <main>
+    <!-- ===== Hero Section Start ===== -->
+    <section id="home" class="relative overflow-hidden z-10 pt-35 md:pt-40 xl:pt-45 ">
+      <!-- Hero Bg Shapes -->
+      <div class="max-w-7xl mx-auto">
+        <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden -mx-28 ">
+          <div
+            class="absolute -z-1 -top-[128%] sm:-top-[107%] xl:-top-[73%] left-1/2 -translate-x-1/2 -u-z-10 hero-circle-gradient w-full h-[1282px] rounded-full max-w-[1282px]">
+          </div>
+          <div
+            class="absolute -z-1 -top-[112%] sm:-top-[93%] xl:-top-[62%] left-1/2 -translate-x-1/2 -u-z-10 hero-circle-gradient w-full h-[1046px] rounded-full max-w-[1046px]">
+          </div>
+          <div class="absolute top-0 left-1/2 -translate-x-1/2 -u-z-10">
+            <img src="./images/blur/blur-02.svg" alt="blur" class="max-w-none">
+          </div>
+          <div class="absolute top-0 left-1/2 -translate-x-1/2 -u-z-10">
+            <img src="./images/blur/blur-01.svg" alt="blur" class="max-w-none">
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Content -->
+      <div class="mx-auto max-w-[900px] px-4 sm:px-8 xl:px-0 relative z-1 box-hover">
+        <div class="text-center ">
+          <!-- <a href="/#"
+            class="hero-subtitle-gradient hover:hero-subtitle-hover relative mb-5 font-medium text-sm inline-flex items-center gap-2 py-2 px-4.5 rounded-full">
+            <img src="./images/hero/icon-title.svg" alt="icon">
+
+            <span class="hero-subtitle-text">
+              Your Ultimate Creative Companion!
+            </span>
+          </a> -->
+          <h1 class="text-white mb-6 text-3xl font-extrabold sm:text-5xl xl:text-heading-1">
+            We're building the world's first explainable LLM.
+          </h1>
+          <p class="max-w-[500px] mx-auto mb-9 font-medium md:text-lg">
+            Our domain-specific models are designed to produce referenceable and trustworthy responses. 
+            Based on our research in the field of Natural Language Processing. 
+          </p>
+          
+          <!-- <a href="#"
+            class="hero-button-gradient inline-flex rounded-lg py-3 px-7 text-white font-medium ease-in duration-300 hover:opacity-80">
+            Start Your Free Trial
+          </a> -->
+        </div>
+      </div>
+      
+      <div class="text-center">
+        <form id="Waitlist" class="scroll-mt-28" method="post" action="https://api.sheetmonkey.io/form/9AFaSneu12kaCNmwFS4zde">
+          <div class="inline-flex items-center gap-8">
+            <div class="max-w-[300px] w-full">
+              <input id="email" type="email" name="email" placeholder="Enter your Email..."
+                class="rounded-lg border border-white/[0.12] bg-white/[0.05] focus:border-white w-full py-3 px-6 outline-none" />
+                <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" form="myform"/>	
+            </div>
+            <input href="#"
+              class="button-border-gradient relative rounded-lg text-white text-sm flex items-center gap-1.5 py-3.5 px-10 shadow-button hover:button-gradient-hover hover:shadow-none"
+              form="Waitlist"
+              type="submit"
+              
+              value="Join Waitlist"
+            />
+          </div>
+        </form>
+      </div>
+
+      <div class="pt-35 sm:pt-20 xl:pt-50 pb-30">
+        
+      </div>
+
+      <!-- Grid background -->
+      <!-- <span class="absolute bottom-0 left-0 -z-1"><img src="./images/cta/grid.svg" alt="grid" /></span>
+      <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
+        <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
+          <img src="./images/blur/blur-22.svg" alt="blur" class="max-w-none">
+        </span>
+        <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
+          <img src="./images/blur/blur-23.svg" alt="blur" class="max-w-none">
+        </span>
+        <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
+          <img src="./images/blur/blur-24.svg" alt="blur" class="max-w-none">
+        </span>
+      </div> -->
+
+      <!-- Stars -->
+      <div class="max-w-[1100px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
+        <div class="stars"></div>
+        <div class="stars2"></div>
+      </div>
+
+    </section>
+    <!-- ===== Hero Section End ===== -->
+
+  </main>
+  <!-- ===== Footer Start ===== -->
+  <include src="./partials/footer.html" />
+  <!-- ===== Footer End ===== -->
+
+  <!-- ====== Back To Top Start ===== -->
+  <include src="./partials/scrolltop.html" />
+  <!-- ====== Back To Top End ===== -->
+</body>
+
+</html>
