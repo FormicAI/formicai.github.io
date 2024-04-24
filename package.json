@@ -2,8 +2,11 @@
   "name": "ai-tool-tailwind",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://github.com/FormicAI/formic.git",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "webpack serve --open --config webpack.config.js",
     "build": "webpack --config webpack.config.js",
     "sort": "npx prettier --write src"
@@ -17,6 +20,7 @@
     "autoprefixer": "^10.4.2",
     "babel-loader": "^8.2.3",
     "css-loader": "^6.5.1",
+    "gh-pages": "^6.1.1",
     "glob": "^7.2.0",
     "html-loader": "^3.1.0",
     "html-webpack-plugin": "^5.5.0",
