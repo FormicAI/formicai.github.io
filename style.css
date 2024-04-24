@@ -2121,9 +2121,6 @@ body{
 .\!visible{
   visibility: visible !important;
 }
-.visible{
-  visibility: visible;
-}
 .invisible{
   visibility: hidden;
 }
@@ -2404,9 +2401,6 @@ body{
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-}
-.table{
-  display: table;
 }
 .grid{
   display: grid;
@@ -3166,9 +3160,6 @@ body{
 .font-semibold{
   font-weight: 600;
 }
-.italic{
-  font-style: italic;
-}
 .leading-\[28px\]{
   line-height: 28px;
 }
@@ -3188,10 +3179,6 @@ body{
 }
 .text-white\/80{
   color: rgb(255 255 255 / 0.8);
-}
-.underline{
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
 }
 .\!opacity-100{
   opacity: 1 !important;
